@@ -104,6 +104,58 @@ Codecademy Workspaces: CSS
 
 
 
+<h2>Type selector</h2>
+
+
+Remember that declarations are a fundamental part of CSS because they apply a style to a selected element. But how do you decide which elements will get the style? With a selector.
+
+A selector is used to target the specific HTML element(s) to be styled by the declaration. One selector you may already be familiar with is the type selector. Just like its name suggests, the type selector matches the type of the element in the HTML document.
+
+In the previous lesson, you changed the color of a paragraph element.
+
+```
+p {
+  color: green;
+}
+```
+
+This is an instance of using the type selector! The element type is p, which comes from the HTML <p> element.
+
+Some important notes on the type selector:
+
+The type selector does not include the angle brackets.
+Since element types are often referred to by their opening tag name, the type selector is sometimes referred to as the tag name or element selector.
+
+
+<h2>Multiple Classes</h2>
+
+We can use CSS to select an HTML element’s class attribute by name. And so far, we’ve selected elements using only one class name per element. If every HTML element had a single class, all the style information for each element would require a new class.
+
+Luckily, it’s possible to add more than one class name to an HTML element’s class attribute.
+
+For instance, perhaps there’s a heading element that needs to be green and bold. You could write two CSS rulesets like so:
+
+```
+.green {
+  color: green;
+}
+
+.bold {
+  font-weight: bold;
+}
+```
+
+Then, you could include both of these classes on one HTML element like this:
+
+```
+<h1 class='green bold'> ... </h1>
+```
+
+We can add multiple classes to an HTML element’s class attribute by separating them with a space. This enables us to mix and match CSS classes to create many unique styles without writing a custom class for every style combination needed.
+
+
+
+
 </body>
 
 
