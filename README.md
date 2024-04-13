@@ -52,19 +52,21 @@ It’s important to know that inline styles are a quick way of directly styling 
 
 <h2>Linking the CSS File</h2>
 
-```
-
-Perfect! We successfully separated structure (HTML) from styling (CSS), but the web page still looks bland. Why?
+<p>Perfect! We successfully separated structure (HTML) from styling (CSS), but the web page still looks bland. Why?
 
 When HTML and CSS codes are in separate files, the files must be linked. Otherwise, the HTML file won’t be able to locate the CSS code, and the styling will not be applied.
 
 You can use the <link> element to link HTML and CSS files together. The <link> element must be placed within the head of the HTML file. It is a self-closing tag and requires the following attributes:
 
-href — like the anchor element, the value of this attribute must be the address, or path, to the CSS file.
-rel — this attribute describes the relationship between the HTML file and the CSS file. Because you are linking to a stylesheet, the value should be set to stylesheet.
-When linking an HTML file and a CSS file together, the <link> element will look like the following:
+<ul>
+  <li>href — like the anchor element, the value of this attribute must be the address, or path, to the CSS file.</li>
+rel — this attribute describes the relationship between the HTML file and the CSS file. Because you are linking to a stylesheet, the value should be set to stylesheet.</li>
+When linking an HTML file and a CSS file together, the <link> element will look like the following:</li>
+</ul>
 
+```
 <link href='https://www.codecademy.com/stylesheets/style.css' rel='stylesheet'>
+```
 
 Note that in the example above, the path to the stylesheet is a URL:
 
@@ -74,9 +76,13 @@ Specifying the path to the stylesheet using a URL is one way of linking a styles
 
 If the CSS file is stored in the same directory as your HTML file, then you can specify a relative path instead of a URL, like so:
 
+```
 <link href='./style.css' rel='stylesheet'>
+```
 
 Using a relative path is very common way of linking a stylesheet.
+</p>
+
 
 ```
 
@@ -102,7 +108,14 @@ Here are a few more resources to add to your toolkit:
 Codecademy Docs: CSS <br>
 Codecademy Workspaces: CSS
 
-<h2>Type selector</h2>
+
+
+
+
+
+
+
+<h1>Type selector</h1>
 
 <p>
 Remember that declarations are a fundamental part of CSS because they apply a style to a selected element. But how do you decide which elements will get the style? With a selector.
@@ -123,6 +136,29 @@ Some important notes on the type selector:
 
 The type selector does not include the angle brackets.
 Since element types are often referred to by their opening tag name, the type selector is sometimes referred to as the tag name or element selector.
+
+
+
+<h2>Universal</h2>
+
+You learned how the type selector selects all elements of a given type. Well, the universal selector selects all elements of any type.
+
+Targeting all of the elements on the page has a few specific use cases, such as resetting default browser styling, or selecting all children of a parent element. Don’t worry if you don’t understand the use cases right now—we will get to them later on in our Learn CSS journey.
+
+The universal selector uses the * character in the same place where you specified the type selector in a ruleset, like so:
+
+```
+* { 
+  font-family: Verdana;
+}
+```
+
+In the code above, every text element on the page will have its font changed to Verdana.
+
+
+
+
+
 
 
 <h2>Multiple Classes</h2>
