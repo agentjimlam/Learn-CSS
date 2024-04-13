@@ -99,7 +99,7 @@ Let’s review what you learned so far:
 
 Here are a few more resources to add to your toolkit:
 
-Codecademy Docs: CSS
+Codecademy Docs: CSS <br>
 Codecademy Workspaces: CSS
 
 
