@@ -414,8 +414,43 @@ so you put class='green bold' in target tag/element and that tag/element will ge
 ```
 
 
+<p>Chaining</p>
+
+You can combo different selectors, like element + class selector, element + attribute
+
+```
+h1.special {
+}
+
+The code above would select only the <h1> elements with a class of special. If a <p> element also had a class of special, the rule in the example would not style the paragraph.
+```
 
 
+
+
+<h2>Descendant Combos</h2>
+
+In addition to chaining selectors to select elements, CSS also supports selecting elements that are nested within other HTML elements, also known as descendants. For instance, consider the following HTML:
+
+```
+<ul class='main-list'>
+  <li> ... </li>
+  <li> ... </li>
+  <li> ... </li>
+</ul>
+```
+
+The nested &ltli&gt elements are descendants of the &ltul&gt element and can be selected with the descendant combinator like so:
+
+```
+.main-list li {
+
+}
+```
+
+In the example above, .main-list selects the element with the.main-list class (the &ltul&gt element). The descendant &ltli&gt‘s are selected by adding li to the selector, separated by a space. This results in .main-list li as the final selector.
+
+Selecting elements in this way can make our selectors even more specific by making sure they appear in the context we expect.
 
 </body>
 
