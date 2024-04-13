@@ -135,6 +135,29 @@ Some important notes on the type selector:
 The type selector does not include the angle brackets.
 Since element types are often referred to by their opening tag name, the type selector is sometimes referred to as the tag name or element selector.
 
+<h2>Class</h2>
+<p>CSS is not limited to selecting elements by their type. As you know, HTML elements can also have attributes. When working with HTML and CSS a class attribute is one of the most common ways to select an element.
+
+For example, consider the following HTML:
+
+```
+<p class='brand'>Sole Shoe Company</p>
+```
+
+The paragraph element in the example above has a class attribute within the opening tag of the<p> element. The class attribute is set to 'brand'. To select this element using CSS, we can create a ruleset with a class selector of .brand.
+
+```
+.brand {
+
+}
+```
+
+To select an HTML element by its class using CSS, a period (.) must be prepended to the class’s name. In the example above, the class is brand, so the CSS selector for it is .brand.
+</p>
+
+
+
+
 
 
 <h2>Universal</h2>
