@@ -89,11 +89,11 @@ Let’s review what you learned so far:
 <li>Some commonly used CSS terms, such as ruleset, selector, and declaration.</li>
 <li>CSS inline styles can be written inside the opening HTML tag using the style attribute.</li>
 <li>Inline styles can be used to style HTML, but it is not the best practice.</li>
-<li>An internal stylesheet is written using the <style> element inside the <head> element of an HTML file.</li>
+<li>An internal stylesheet is written using the &lt;style&gt; element inside the <head> element of an HTML file.</li>
 <li>Internal stylesheets can be used to style HTML but are also not best practice.</li>
 <li>An external stylesheet separates CSS code from HTML, by using the .css file extension.</li>
 <li>External stylesheets are the best approach when it comes to using HTML and CSS.</li>
-<li>External stylesheets are linked to HTML using the <link> element.</li>
+<li>External stylesheets are linked to HTML using the &lt;link&gt; element.</li>
 <li>Take this knowledge to the next lesson, where you start learning how to select HTML elements to style!</li>
 </ul>
 
@@ -106,7 +106,7 @@ Codecademy Workspaces: CSS
 
 <h2>Type selector</h2>
 
-
+<p>
 Remember that declarations are a fundamental part of CSS because they apply a style to a selected element. But how do you decide which elements will get the style? With a selector.
 
 A selector is used to target the specific HTML element(s) to be styled by the declaration. One selector you may already be familiar with is the type selector. Just like its name suggests, the type selector matches the type of the element in the HTML document.
@@ -153,6 +153,48 @@ Then, you could include both of these classes on one HTML element like this:
 
 We can add multiple classes to an HTML element’s class attribute by separating them with a space. This enables us to mix and match CSS classes to create many unique styles without writing a custom class for every style combination needed.
 
+
+<h2>Attribute</h2>
+
+You may remember that some HTML elements use attributes to add extra detail or functionality to the element. Some familiar attributes may be href and src, but there are many more—including class and id!
+
+The attribute selector can be used to target HTML elements that already contain attributes. Elements of the same type can be targeted differently by their attribute or attribute value. This alleviates the need to add new code, like the class or id attributes.
+
+Attributes can be selected similarly to types, classes, and IDs.
+
+```
+[href]{
+   color: magenta;
+}
+```
+
+The most basic syntax is an attribute surrounded by square brackets. In the above example: [href] would target all elements with an href attribute and set the color to magenta.
+
+And it can get more granular from there by adding type and/or attribute values. One way is by using type[attribute*=value]. In short, this code selects an element where the attribute contains any instance of the specified value. Let’s take a look at an example.
+
+```
+<img src='/images/seasons/cold/winter.jpg'>
+<img src='/images/seasons/warm/summer.jpg'>
+```
+
+The HTML code above renders two &lt;img&lt; elements, each containing a src attribute with a value equaling a link to an image file.
+
+```
+img[src*='winter'] {
+  height: 50px;
+}
+
+img[src*='summer'] {
+  height: 100px;
+}
+```
+
+Now take a look at the above CSS code. The attribute selector is used to target each image individually.
+
+The first ruleset looks for an img element with an attribute of src that contains the string 'winter', and sets the height to 50px.
+The second ruleset looks for an img element with an attribute of src that contains the string 'summer', and sets the height to 100px.
+Notice how no new HTML markup (like a class or id) needed to be added, and we were still able to modify the styles of each image independently. This is one advantage to using the attribute selector!
+</p>
 
 
 
