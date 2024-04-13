@@ -102,8 +102,6 @@ Here are a few more resources to add to your toolkit:
 Codecademy Docs: CSS <br>
 Codecademy Workspaces: CSS
 
-
-
 <h2>Type selector</h2>
 
 <p>
@@ -152,6 +150,29 @@ Then, you could include both of these classes on one HTML element like this:
 ```
 
 We can add multiple classes to an HTML element’s class attribute by separating them with a space. This enables us to mix and match CSS classes to create many unique styles without writing a custom class for every style combination needed.
+
+
+
+
+<h2>ID</h2>
+
+Oftentimes it’s important to select a single element with CSS to give it its own unique style. If an HTML element needs to be styled uniquely, we can give it an ID using the id attribute.
+
+```
+<h1 id='large-title'> ... </h1>
+```
+
+In contrast to class which accepts multiple values, and can be used broadly throughout an HTML document, an element’s id can only have a single value, and only be used once per page.
+
+To select an element’s ID with CSS, we prepend the id name with a number sign (#). For instance, if we wanted to select the HTML element in the example above, it would look like this:
+
+```
+#large-title {
+
+}
+```
+
+The id name is large-title, therefore the CSS selector for it is #large-title.
 
 
 <h2>Attribute</h2>
