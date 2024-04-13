@@ -339,6 +339,37 @@ To make styles easy to edit, it’s best to style with a type selector, if possi
 
 
 
+
+```
+Below is to test/show how the overwrite works, the most specific target selector overwrites the others
+
+Target line =  <h5 class='author-class' id='author-id'>By: Stacy Gray</h5>
+
+
+h5 {
+  color: yellow;
+}
+
+.author-class {
+  color: pink;
+}
+
+#author-id {
+  color: cornflowerblue;
+}
+
+
+
+Each of these rules selects the same element in a different way. Which style will win the “specificity war”? Click “Run” to find out!
+
+Because ID is the most specific selector, the element will change to *cornflower blue*. You may have noticed the other <h5> elements changed to yellow. This is because the most specific (and only) selector they have is their type.
+```
+
+
+
+
+<p>Mid-review</p>
+
 ```
 1.) ID selector - Style ID
 #name of id {}
