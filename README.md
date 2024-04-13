@@ -84,9 +84,7 @@ Using a relative path is very common way of linking a stylesheet.
 </p>
 
 
-```
-
-
+<h2>Review</h2>
 Great work so far! By understanding how to incorporate CSS code into your HTML file, as well as learning some of the key terms, you’re on your way to creating spectacular websites with HTML and CSS.
 
 Let’s review what you learned so far:
