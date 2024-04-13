@@ -310,6 +310,9 @@ While classes are meant to be used many times, an ID is meant to style only one 
 </p>
 
 
+
+
+
 <h2>Specificity</h2>
 
 Specificity is the order by which the browser decides which CSS styles will be displayed. A best practice in CSS is to style elements while using the lowest degree of specificity so that if an element needs a new style, it is easy to override.
@@ -334,6 +337,50 @@ Over time, as files grow with code, many elements may have IDs, which can make C
 
 To make styles easy to edit, it’s best to style with a type selector, if possible. If not, add a class selector. If that is not specific enough, then consider using an ID selector.
 
+
+
+```
+1.) ID selector - Style ID
+#name of id {}
+
+style class/group of certain elements
+.name of the class group {}
+
+2.) Element selector - style all element of this type
+p{}
+
+
+3.) Universal selector, style everything in page
+*{}
+
+4.) pseudo class :hover, make style appear when mouse hover over. this is one of many unique kinds (:focus, :visited, :disabled, and :active)
+p:hover{}
+
+
+5.) Attribute selector - style any that has the target attribute
+img[src*='a string variable/word that is inside the source link'] {
+  height: 50px;
+}
+
+you can combine element selector and attribute selector to style specific element + attribute combos.
+
+a[href*='florence'] {
+  color: lightgreen;
+}
+
+Similarly, you can combo together different class selectors
+
+.green {
+  color: green;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+so you put class='green bold' in target tag/element and that tag/element will get both green and bold style
+
+```
 
 
 
