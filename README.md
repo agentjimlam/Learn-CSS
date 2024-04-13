@@ -80,27 +80,27 @@ Using a relative path is very common way of linking a stylesheet.
 
 ```
 
-```
+
 Great work so far! By understanding how to incorporate CSS code into your HTML file, as well as learning some of the key terms, you’re on your way to creating spectacular websites with HTML and CSS.
 
 Let’s review what you learned so far:
-
-The basic anatomy of CSS syntax written for both inline styles and stylesheets.
-Some commonly used CSS terms, such as ruleset, selector, and declaration.
-CSS inline styles can be written inside the opening HTML tag using the style attribute.
-Inline styles can be used to style HTML, but it is not the best practice.
-An internal stylesheet is written using the <style> element inside the <head> element of an HTML file.
-Internal stylesheets can be used to style HTML but are also not best practice.
-An external stylesheet separates CSS code from HTML, by using the .css file extension.
-External stylesheets are the best approach when it comes to using HTML and CSS.
-External stylesheets are linked to HTML using the <link> element.
-Take this knowledge to the next lesson, where you start learning how to select HTML elements to style!
+<ul>
+<li>The basic anatomy of CSS syntax written for both inline styles and stylesheets.</li>
+<li>Some commonly used CSS terms, such as ruleset, selector, and declaration.</li>
+<li>CSS inline styles can be written inside the opening HTML tag using the style attribute.</li>
+<li>Inline styles can be used to style HTML, but it is not the best practice.</li>
+<li>An internal stylesheet is written using the <style> element inside the <head> element of an HTML file.</li>
+<li>Internal stylesheets can be used to style HTML but are also not best practice.</li>
+<li>An external stylesheet separates CSS code from HTML, by using the .css file extension.</li>
+<li>External stylesheets are the best approach when it comes to using HTML and CSS.</li>
+<li>External stylesheets are linked to HTML using the <link> element.</li>
+<li>Take this knowledge to the next lesson, where you start learning how to select HTML elements to style!</li>
+</ul>
 
 Here are a few more resources to add to your toolkit:
 
 Codecademy Docs: CSS
 Codecademy Workspaces: CSS
-```
 
 
 
