@@ -50,7 +50,28 @@ You will learn more about inline, inline-block, and block level elements in the 
 
 
 
+<!-- Question 10/10-->
 
+In the practice's style.css, we see the following at the top.
+
+  /* Old browsers */
+  background: #141E30;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #35577D, #141E30);
+
+
+What is linear-gradient and why do we need three different background declarations?
+
+Ans: linear-gradient() is a CSS function which creates a visual transition between two or more colors. This code snippet uses several fallback background properties for wider browser support. For example, older Chrome browsers might not be able to render the last background declaration but they might be able to render the declaration with the -webkit vendor prefix. Right now, the Opera Mini browser doesn’t support the linear-gradient() function at all. This browser would render the first background declaration.
+
+Utilizing the cascade in this way allows developers to serve the latest CSS features to browsers that can render them while still creating presentable styling for browsers that can’t.
+
+
+
+
+https://www.youtube.com/watch?v=InA5Ff7mxrc&t=3s
 
 
 
