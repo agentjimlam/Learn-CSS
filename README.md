@@ -625,10 +625,8 @@ Incredible work! You used CSS to alter text and images on a website. Throughout 
 </ul>
 
 
-<video src = "https://www.youtube.com/watch?v=InA5Ff7mxrc&t=3s"> </video>
 
-
-[![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=InA5Ff7mxrc&t=3s.jpg)](https://www.youtube.com/watch?v=InA5Ff7mxrc&t=3s)
+[![Learn CSS Visual Rules](https://www.youtube.com/watch?v=InA5Ff7mxrc&t=3s/0.jpg)](https://www.youtube.com/watch?v=InA5Ff7mxrc&t=3s)
 
 
 
