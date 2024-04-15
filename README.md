@@ -541,7 +541,34 @@ h1,
 }
 ```
 
-By separating the CSS selectors with a comma, both the <h1> elements and the elements with the menu class will receive the font-family: Georgia styling.
+By separating the CSS selectors with a comma, both the &lt;h1&gt; elements and the elements with the menu class will receive the font-family: Georgia styling.
+
+
+You can chain element tags too like below, exercise answer.
+
+```
+h5, li {font-family: monospace;}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
