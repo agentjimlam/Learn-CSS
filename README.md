@@ -550,6 +550,22 @@ You can chain element tags too like below, exercise answer.
 h5, li {font-family: monospace;}
 ```
 
+<h2>Review</h2>
+
+Throughout this lesson, you learned how to select HTML elements with CSS and apply styles to them. Let’s review what you learned:
+
+<ul>
+<li>CSS can select HTML elements by type, class, ID, and attribute.</li>
+<li>All elements can be selected using the universal selector.</li>
+<li>An element can have different states using the pseudo-class selector.</li>
+<li>Multiple CSS classes can be applied to one HTML element.</li>
+<li>Classes can be reusable, while IDs can only be used once.</li>
+<li>IDs are more specific than classes, and classes are more specific than type. That means IDs will override any styles from a class, and classes will override any styles from a type selector.</li>
+<li>Multiple selectors can be chained together to select an element. This raises the specificity but can be necessary.</li>
+<li>Nested elements can be selected by separating selectors with a space.</li>
+<li>Multiple unrelated selectors can receive the same styles by separating the selector names with commas.</li>
+<li>Great work this lesson. With this knowledge, you’ll be able to use CSS to change the look and feel of websites to make them look great!</li>
+</ul>
 
 
 
