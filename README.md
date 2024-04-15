@@ -448,7 +448,7 @@ The nested &lt;li&gt; elements are descendants of the &lt;ul&gt; element and can
 }
 ```
 
-In the example above, .main-list selects the element with the.main-list class (the &ltul&gt element). The descendant &ltli&gt‘s are selected by adding li to the selector, separated by a space. This results in .main-list li as the final selector.
+In the example above, .main-list selects the element with the.main-list class (the &lt;ul&gt; element). The descendant &ltli&gt‘s are selected by adding li to the selector, separated by a space. This results in .main-list li as the final selector.
 
 Selecting elements in this way can make our selectors even more specific by making sure they appear in the context we expect.
 
