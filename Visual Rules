@@ -1,0 +1,49 @@
+
+<!-- Questions 2/10-->
+
+With the advent of web fonts, can’t a user see a site’s font even if those fonts aren’t installed on her computer?
+
+Yes! As you will learn in unit 5, non user fonts are fonts which are stored remotely in publicly available directories. Even if a user does not have these fonts installed on her computer, she can use the @font-face property or the <link> element to link to them.
+
+Google Fonts is a popular directory with thousands of free fonts.
+
+
+
+
+
+<!-- Questions 3/10 -->
+
+
+What is a pixel and is this the only measure of font size?
+
+A pixel is one of several units of measure in web development. It is an absolute unit equal to 1/96 of an inch.
+
+Rems and ems are scalable typographic units which are commonly used with the font-size property. As opposed to pixels, both of these units are relative. 
+For example, an em is measured relative to the font-size of an element. When dealing with ems it is important to realize that the font-size of an element is 
+often inherited from an ancestor element. On the other hand, rems are determined based on the font-size of the html element. If font-size is not defined on the html element, 
+the browser’s default font-size is used instead (usually 16px).
+
+
+```
+the browser’s default font-size is used instead (usually 16px).
+```
+
+We can (and probably should) make an explicit declaration to adopt the browser’s default size at load time.
+
+```
+body {
+    font-size: 100%;
+}
+```
+
+Users with visual impairment often need larger fonts on everything and may set their browser to a size that suits them. The user is the most important person and by adopting the browser’s default and then making all our fonts relative to that we make the experience for those users appropriate to their needs.
+
+
+
+
+
+
+
+
+
+
