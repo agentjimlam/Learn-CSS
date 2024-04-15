@@ -483,7 +483,19 @@ Both of these CSS rules define what a <p> element should look like. Since .main 
 
 Exercise answer is:
 
+
 ```
+
+This the index.html part that is changed
+ <h2 class='heading-background'> More Destinations </h2>
+  <ul>
+    <li><h4 class='destination'>Jackson Hole, Wyoming</h4></li>
+    <li><h4 class='destination'>Cape Town, South Africa</h4></li>
+    <li><h4 class='destination'>La Paz, Bolivia</h4></li>
+  </ul>
+
+
+
 li h4 {
   color: gold;
 }
@@ -500,4 +512,37 @@ h4 {
 } 
 
 ```
+
+
+
+
+<h2>Multiple Selectors</h2>
+
+In order to make CSS more concise, it’s possible to add CSS styles to multiple CSS selectors all at once. This prevents writing repetitive code.
+
+For instance, the following code has repetitive style attributes:
+
+```
+h1 {
+  font-family: Georgia;
+}
+
+.menu {
+  font-family: Georgia;
+}
+```
+
+Instead of writing font-family: Georgia twice for two selectors, we can separate the selectors by a comma to apply the same style to both, like this:
+
+```
+h1, 
+.menu {
+  font-family: Georgia;
+}
+```
+
+By separating the CSS selectors with a comma, both the <h1> elements and the elements with the menu class will receive the font-family: Georgia styling.
+
+
+
 
