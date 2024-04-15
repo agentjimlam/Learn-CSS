@@ -571,14 +571,21 @@ Throughout this lesson, you learned how to select HTML elements with CSS and app
 
 
 
+<h2>Introduction To Visual Rules</h2>
+
+The purpose of CSS is to add style to web page, and each element on the page can have many style properties. Some of the basic properties relate to the size, style, and color of the element. In this lesson, you’ll learn some fundamental CSS visual rules that you can use to start styling web page elements!
 
 
+<h3>Important Links</h3>
+https://discuss.codecademy.com/t/guide-how-to-build-a-web-dev-portfolio/394816?_gl=1*1ly3w0e*_ga*ODk0NDg4NDY4Ni4xNzExNzExNjU5*_ga_3LRZM6TM9L*MTcxMzE2NzE3Ny4zMC4xLjE3MTMxNjk2NjUuMjEuMC4w
 
 
+What the hell is font-face? How users can see the unique fonts on your website even though they never install that font? IT GETS IT FROM the Font-face file from THE WEBSITE'S SERVER
 
 
+<h2>Font Family</h2>
 
-
+<h2>Font Size</h2>
 
 
 
