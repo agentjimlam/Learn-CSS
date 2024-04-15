@@ -448,6 +448,12 @@ The nested &lt;li&gt; elements are descendants of the &lt;ul&gt; element and can
 }
 ```
 
+
+
+
+
+
+
 In the example above, .main-list selects the element with the.main-list class (the &lt;ul&gt; element). The descendant &ltli&gt‘s are selected by adding li to the selector, separated by a space. This results in .main-list li as the final selector.
 
 Selecting elements in this way can make our selectors even more specific by making sure they appear in the context we expect.
@@ -457,4 +463,41 @@ Selecting elements in this way can make our selectors even more specific by maki
 
 
 
+<h2>Chaining and Specificity</h2>
+
+In the last exercise, instead of selecting all <h5> elements, you selected only the <h5> elements nested inside the .description elements. This CSS selector was more specific than writing only h5. Adding more than one tag, class, or ID to a CSS selector increases the specificity of the CSS selector.
+
+For instance, consider the following CSS:
+
+```
+p {
+  color: blue;
+}
+
+.main p {
+  color: red;
+}
+```
+
+Both of these CSS rules define what a <p> element should look like. Since .main p has a class and a p type as its selector, only the <p> elements inside the .main element will appear red. This occurs despite there being another more general rule that states <p> elements should be blue.
+
+Exercise answer is:
+
+```
+li h4 {
+  color: gold;
+}
+
+h4 is descendant/child of li tag, not the ul tag. You can actually put like this, it's basically parent-selector, then descendant-sector, in that order
+
+parent-selector descendant-selector {
+  declaration
+}
+
+later below was added to show that the more specified selector overwrites this more general selector here
+h4 {
+  color: dodgerblue;
+} 
+
+```
 
