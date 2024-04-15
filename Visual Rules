@@ -40,6 +40,21 @@ Users with visual impairment often need larger fonts on everything and may set t
 
 
 
+<!-- Question 5/10 -->
+<!-- Ans: Can the text align-property only be used to align text or can we use it to align other content as well?
+
+The text-align property is used to align the inner content of a block element. This means that in addition to aligning text, it can also be used to align inline or inline-block elements within a containing div.
+
+You will learn more about inline, inline-block, and block level elements in the next exercise.
+-->
+
+
+
+
+
+
+
+
 
 
 
