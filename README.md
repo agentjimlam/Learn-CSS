@@ -440,7 +440,7 @@ In addition to chaining selectors to select elements, CSS also supports selectin
 </ul>
 ```
 
-The nested &ltli&gt elements are descendants of the &ltul&gt element and can be selected with the descendant combinator like so:
+The nested &lt;li&gt; elements are descendants of the &lt;ul&gt; element and can be selected with the descendant combinator like so:
 
 ```
 .main-list li {
