@@ -264,7 +264,7 @@ img[src*='winter'] {
 }
 
 img[src*='summer'] {
-  height: 100px;
+  height: 100px; 
 }
 ```
 
