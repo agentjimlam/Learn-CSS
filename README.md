@@ -609,7 +609,7 @@ If we wanted all text on a web page to appear bolded, we could select all text e
 
 <br>
 
-<h3>Review Visual Rules</h3>
+<h2>Review Visual Rules</h2>
 
 Incredible work! You used CSS to alter text and images on a website. Throughout this lesson, you learned concepts including:
 
@@ -629,7 +629,7 @@ Incredible work! You used CSS to alter text and images on a website. Throughout 
 [![Learn CSS Visual Rules](https://www.youtube.com/watch?v=InA5Ff7mxrc&t=3s/0.jpg)](https://www.youtube.com/watch?v=InA5Ff7mxrc&t=3s)
 
 
-<h3>Box Model</h3>
+<h2>Box Model</h2>
 
 Review
 
