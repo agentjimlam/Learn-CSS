@@ -680,5 +680,19 @@ Under this box model, the border thickness and padding are added to the overall 
 
 In this brief lesson, you’ll learn how to use a different technique that avoids this problem altogether.
 
+<h3>Review: Changing the Box Model</h3>
+
+In this lesson, you learned about an important limitation of the default box model: box dimensions are affected by border thickness and padding.
+
+Let’s review what you learned:
+
+<ul>
+  <li>In the default box model, box dimensions are affected by border thickness and padding.</li>
+  <li>The box-sizing property controls the box model used by the browser.</li>
+  <li>The default value of the box-sizing property is content-box.</li>
+  <li>The value for the new box model is border-box.</li>
+  <li>The border-box model is not affected by border thickness or padding.</li>
+</ul>
+
 </body>
 
