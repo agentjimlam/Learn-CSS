@@ -84,6 +84,17 @@ That is, you need a square element to have a circle border. As well, if your ele
 and therefore you will need to adjust its measurements if your goal is to have a circle border.
 -->
 
+<!-- Question 11/16 -->
+<!-- What is the reason behind collapsing on horizontal margins and not vertical? -->
+Ans: requisite for collapse to happen is to have block elements, one <div> on top of another <div> makes them auto block elements. 
+This is not quality applied to inline elements. You need to do fancy coding to make inline elements into block elements for a horizontal margin collapse to happen. 
+
+https://discuss.codecademy.com/t/collapsing-margins/365328
+
+-->
+
+
+
 
 
 
