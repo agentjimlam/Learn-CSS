@@ -1,5 +1,6 @@
 # Intro to CSS
 
+<h3>KEY TAKEAWAY: All HTML elements are boxes made up of four components: a content container, padding, border, and margin. </h3>
 
 Cascading Style Sheets or CSS is a language web developers use to style the HTML content on a web page. If you’re interested in modifying colors, font types, font sizes, images, element positioning, and more, CSS is the tool for the job!
 
@@ -693,6 +694,20 @@ Let’s review what you learned:
   <li>The value for the new box model is border-box.</li>
   <li>The border-box model is not affected by border thickness or padding.</li>
 </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 
