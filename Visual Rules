@@ -74,8 +74,15 @@ Utilizing the cascade in this way allows developers to serve the latest CSS feat
 https://www.youtube.com/watch?v=InA5Ff7mxrc&t=3s
 
 
+The Box Moedel
+<!-- Question 5/16 -->
 
+Why setting the radius 70 of the #banner .content h1 border to 100% gives me an oval and not a circle?
 
+Answer: Having 100% on border-radius should give you a perfect circle, that is correct, only if the element’s height and width are the same. 
+That is, you need a square element to have a circle border. As well, if your element does not have specific measurements it is at the mercy of the size of the container and its own content, 
+and therefore you will need to adjust its measurements if your goal is to have a circle border.
+-->
 
 
 
