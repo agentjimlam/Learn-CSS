@@ -770,7 +770,36 @@ How to lay text out on a page.
 and how to add external fonts to your web pages.
 Some of the most important information a user will see on a web page will be textual. Styling text to make page content accessible and engaging can significantly improve user experience. Let’s begin!
 
-<h4>Review</h4>
+
+
+<h4>Web fonts using @font-face</h4>
+
+When you have the files you need, move them to a folder inside your website’s working directory, and you’re ready to use them in a @font-face ruleset!
+
+```
+@font-face {
+  font-family: 'MyParagraphFont';
+  src: url('fonts/Roboto.woff2') format('woff2'),
+       url('fonts/Roboto.woff') format('woff'),
+       url('fonts/Roboto.ttf') format('truetype');
+}
+```
+
+Let’s take a look at the example above, line by line:
+
+The @font-face at-rule is used as the selector. It’s recommended to define the @font-face ruleset at the top of your CSS stylesheet.
+
+Inside the declaration block, the font-family property is used to set a custom name for the downloaded font. The name can be anything you choose, but it must be surrounded by quotation marks. In the example, the font is named 'MyParagraphFont', as this font will be used for all paragraphs.
+
+The src property contains three values, each specifying the relative path to the font file and its format. In this example, the font files are stored inside a folder named fonts within the working directory.
+Note that the ordering for the different formats is important because our browser will start from the top of the list and search until it finds a font format that it supports. Read more on format prioritization on CSS-Tricks.
+
+Once the @font-face at-rule is defined, you can use the font in your stylesheet!
+
+
+
+
+<h3>Review</h3>
 
 Great job! You learned how to style an important aspect of the user experience—typography.
 
@@ -790,7 +819,6 @@ Let’s review what you’ve learned so far:
   <li>Local fonts can be added to a document with the @font-face property and the path to the font’s source.</li>
   <li>Using your new knowledge of CSS typography, feel free to edit the code further to make the web page more appealing!</li>
 </ul>
-
 
 
 </body>
