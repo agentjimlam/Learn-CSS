@@ -652,6 +652,11 @@ In this lesson, we covered the four properties of the box model: height and widt
 
 
 
+
+
+
+
+
 <h2>Changing the Box Model</h2>
 
 Why Change the Box Model?
@@ -694,9 +699,17 @@ Let’s review what you learned:
   <li>The value for the new box model is border-box.</li>
   <li>The border-box model is not affected by border thickness or padding.</li>
 </ul>
+<br>
+https://css-tricks.com/snippets/css/using-font-face-in-css/
 
 
-<h2>Flow of HTML</h2>
+
+
+
+
+
+<h2>Display And Positioning</h2>
+<h3>Flow of HTML</h3>
 
 A browser will render the elements of an HTML document that has no CSS from left to right, top to bottom, in the same order as they exist in the document. This is called the flow of elements in HTML.
 
@@ -738,7 +751,26 @@ Let’s review what you’ve learned so far:
 </ul>
 
 
+
+
+
+<h2>Colors</h2>
+See Codeacademy lessons, better picture
+
+
+
+
+
 <h2>Typography</h2>
+
+In this lesson, we’ll focus on typography, the art of arranging text on a page. We’ll look at:
+
+How to style and transform fonts.
+How to lay text out on a page.
+and how to add external fonts to your web pages.
+Some of the most important information a user will see on a web page will be textual. Styling text to make page content accessible and engaging can significantly improve user experience. Let’s begin!
+
+<h4>Review</h4>
 
 Great job! You learned how to style an important aspect of the user experience—typography.
 
