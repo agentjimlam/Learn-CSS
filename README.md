@@ -738,7 +738,7 @@ Let’s review what you’ve learned so far:
 </ul>
 
 
-<h3>Typography</h3>
+<h2>Typography</h2>
 
 Great job! You learned how to style an important aspect of the user experience—typography.
 
