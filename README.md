@@ -792,7 +792,7 @@ The @font-face at-rule is used as the selector. It’s recommended to define the
 Inside the declaration block, the font-family property is used to set a custom name for the downloaded font. The name can be anything you choose, but it must be surrounded by quotation marks. In the example, the font is named 'MyParagraphFont', as this font will be used for all paragraphs.
 
 The src property contains three values, each specifying the relative path to the font file and its format. In this example, the font files are stored inside a folder named fonts within the working directory.
-Note that the ordering for the different formats is important because our browser will start from the top of the list and search until it finds a font format that it supports. Read more on format prioritization on CSS-Tricks.
+Note that the ordering for the different formats is important because our browser will start from the top of the list and search until it finds a font format that it supports. Read more on format prioritization on CSS-Tricks (https://css-tricks.com/snippets/css/using-font-face-in-css/).
 
 Once the @font-face at-rule is defined, you can use the font in your stylesheet!
 
