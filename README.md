@@ -2,7 +2,7 @@
 
 <h3>KEY TAKEAWAY: All HTML elements are boxes made up of four components: a content container, padding, border, and margin. </h3>
 
-Cascading Style Sheets or CSS is a ```testing``` language web developers use to style the HTML content on a web page. If you’re interested in modifying colors, font types, font sizes, images, element positioning, and more, CSS is the tool for the job!
+Cascading Style Sheets or CSS is a language web developers use to style the HTML content on a web page. If you’re interested in modifying colors, font types, font sizes, images, element positioning, and more, CSS is the tool for the job!
 
 \*In this lesson, you’ll learn how to set up your CSS file structure and select which HTML elements you wish to style.\*
 
@@ -46,13 +46,17 @@ Although CSS is a different language than HTML, it’s possible to write CSS cod
 
 To style an HTML element, you can add the style attribute directly to the opening tag. After you add the attribute, you can set it equal to the CSS style(s) you’d like applied to that element.
 
+```
 &lt;p style='color: red;'&gt;I'm learning to code!&lt;/p&gt;
+```
 
 The code in the example above demonstrates how to use inline styling. The paragraph element has a style attribute within its opening tag. Next, the style attribute is set equal to color: red;, which will set the color of the paragraph text to red within the browser.
 
 If you’d like to add more than one style with inline styles, simply keep adding to the style attribute. Make sure to end the styles with a semicolon (;).
 
+```
 &lt;p style='color: red; font-size: 20px;'&gt;I'm learning to code!&lt;/p&gt;
+```
 
 It’s important to know that inline styles are a quick way of directly styling an HTML element, but are rarely used when creating websites. But you may encounter circumstances where inline styling is necessary, so understanding how it works, and recognizing it in HTML code is good knowledge to have. Soon you’ll learn the proper way to add CSS code!
 </p>
@@ -60,11 +64,11 @@ It’s important to know that inline styles are a quick way of directly styling 
 
 <h2>Linking the CSS File</h2>
 
-<p>Perfect! We successfully separated structure (HTML) from styling (CSS), but the web page still looks bland. Why?
+<p>Perfect! We successfully separated structure `(HTML)` from styling `(CSS)`, but the web page still looks bland. Why?
 
 When HTML and CSS codes are in separate files, the files must be linked. Otherwise, the HTML file won’t be able to locate the CSS code, and the styling will not be applied.
 
-You can use the <link> element to link HTML and CSS files together. The <link> element must be placed within the head of the HTML file. It is a self-closing tag and requires the following attributes:
+You can use the `<link>` element to link HTML and CSS files together. The `<link>` element must be placed within the head of the HTML file. It is a self-closing tag and requires the following attributes:
 
 <ul>
   <li>href — like the anchor element, the value of this attribute must be the address, or path, to the CSS file.</li>
