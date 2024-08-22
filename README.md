@@ -12,11 +12,11 @@ You can tell GitHub to ignore (or escape) Markdown formatting by using \ before 
 eg. Let's rename \*our-new-project\* to \*our-old-project\*.
 -->
 
-Testing 
+Testing display `````` in readme
 
 ````
 ```
-what does this do?
+test to display triple backticks
 ```
 ````
 
